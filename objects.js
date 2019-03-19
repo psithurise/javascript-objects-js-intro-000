@@ -1,6 +1,6 @@
 var playlist = {
-  Little Mix: "Strip",
-  Dua Lipa: "Blow Your Mind (Mwah)"
+  LM: "Strip",
+  DL: "Blow Your Mind (Mwah)"
 }
 
 function updatePlaylist(obj, key, val) {
