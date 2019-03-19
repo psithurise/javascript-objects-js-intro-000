@@ -3,11 +3,12 @@ var playlist = {
   DL: "Blow Your Mind (Mwah)"
 }
 
-function updatePlaylist(obj, key, val) {
-  return obj.assign({}, obj, {[key]: val})
+function updatePlaylist(obj, artist, song) {
+  obj.artist = song;
+  return obj
 }
 
-function removeFromPlaylist(obj, key) {
-  delete obj.key
+function removeFromPlaylist(obj, artist) {
+  delete obj.artist;
   return obj
 }
